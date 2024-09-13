@@ -316,45 +316,37 @@ Senha: Newteste@123
 
 **Resultado Esperado:** O usuário deve ser redirecionado para a página inicial com a mensagem “Boas-vindas à Lacrei Saúde”.
 
- **Cenário de Teste de Desempenho**
+**Cenário de Teste de Desempenho**
+**ID: 009**
+**Objetivo**: Verificar e otimizar o desempenho da página de cadastro de usuário no site da Lacrei Saúde, utilizando os resultados do teste de performance do Lighthouse.
 
-**ID: 009**
-**Objetivo:** Verificar e otimizar o desempenho da página de cadastro de usuário no site da Lacrei Saúde, utilizando os resultados do teste de performance do Lighthouse.
-
-**Pré-condições:**
-
+**Pré-condições**:
 Acesso à versão mobile do site da Lacrei Saúde.
 Ferramenta Lighthouse instalada no Google Chrome.
-**Passos para execução:**
-
+**Passos para execução**:
 Configuração do Ambiente de Teste:
 Abra o Google Chrome e navegue até a página de cadastro de usuário.
 Abra o DevTools (Ctrl+Shift+I ou Cmd+Option+I no Mac) e selecione a aba “Lighthouse”.
 Marque a opção “Performance” e selecione “Mobile”.
 Clique em “Generate report” para iniciar a auditoria.
-Execução do Teste:
+**Execução do Teste**:
 Execute o teste de desempenho e aguarde a geração do relatório.
 Analise os resultados obtidos, focando nas métricas principais e diagnósticos fornecidos.
-**Análise dos Resultados:**
+**Análise dos Resultados**:
 First Contentful Paint (FCP): 4.0 s
 Largest Contentful Paint (LCP): 9.3 s
 Total Blocking Time (TBT): 4,550 ms
 Time to Interactive (TTI): 14.5 s
 Speed Index: 14.5 s
-
-**Diagnósticos e Melhorias:**
+**Diagnósticos e Melhorias**:
 Minimize main-thread work: 12.3 s
 Ação: Reduzir o trabalho na thread principal, otimizando scripts e removendo tarefas desnecessárias.
-
 Largest Contentful Paint element: 9,280 ms
 Ação: Melhorar o tempo de carregamento do maior elemento visível, otimizando imagens e recursos.
-
 Reduce JavaScript execution time: 7.5 s
 Ação: Minimizar o tempo de execução do JavaScript, removendo scripts não utilizados e otimizando os existentes.
-
 Eliminate render-blocking resources: Potencial de economia de 810 ms
 Ação: Remover ou adiar recursos que bloqueiam a renderização, como CSS e JavaScript.
-
 Reduce initial server response time: Documento raiz levou 920 ms
 Ação: Melhorar o tempo de resposta inicial do servidor, otimizando a infraestrutura e o código do servidor.
 Reduce the impact of third-party code: Código de terceiros bloqueou a thread principal por 450 ms
@@ -383,30 +375,26 @@ Avoids enormous network payloads: Tamanho total foi de 460 KiB
 Ação: Reduzir o tamanho do payload de rede para melhorar o tempo de carregamento.
 Avoid chaining critical requests: 2 cadeias encontradas
 Ação: Evitar encadeamento de requisições críticas para melhorar o tempo de carregamento.
-**Resultado Esperado:**
-
+**Resultado Esperado**:
 A página de cadastro deve apresentar uma melhoria significativa nas métricas de desempenho, com tempos de carregamento reduzidos e uma experiência de usuário mais fluida.
 As métricas de desempenho devem estar dentro dos limites aceitáveis, com FCP abaixo de 2 segundos, LCP abaixo de 2.5 segundos, TBT abaixo de 300 ms, e TTI abaixo de 5 segundos.
-**Ferramentas Utilizadas:**
+**Ferramentas Utilizadas**:
 Lighthouse: Para auditoria de desempenho e recomendações de otimização.
 Chrome DevTools: Para análise detalhada e depuração de problemas de desempenho.
 WebPageTest: Para testes de desempenho adicionais e comparações.
 
-**Cenário de Teste de Acessibilidade** 
+**Cenário de Teste de Acessibilidade**
+**ID: 010**
+**Objetivo**: Verificar e corrigir problemas de acessibilidade na página de cadastro de usuário no site da Lacrei Saúde.
 
-**ID: 010**
-**Objetivo:** Verificar e corrigir problemas de acessibilidade na página de cadastro de usuário no site da Lacrei Saúde, utilizando a ferramenta WAVE.
-
-**Pré-condições:**
-
+**Pré-condições**:
 Acesso à versão mobile do site da Lacrei Saúde.
 Extensão WAVE instalada no navegador.
-**Passos para execução:**
-
+**Passos para execução**:
 Configuração do Ambiente de Teste:
 Abra o navegador e navegue até a página de cadastro de usuário.
 Ative a extensão WAVE para iniciar a análise de acessibilidade.
-**Execução do Teste:**
+**Execução do Teste**:
 Execute a análise de acessibilidade com o WAVE.
 Aguarde a geração do relatório, que destacará os problemas de acessibilidade na página.
 Análise dos Resultados:
@@ -416,7 +404,7 @@ Alerts: 5
 Features: 20
 Structural Elements: 10
 ARIA: 2
-Diagnósticos e Melhorias:
+**Diagnósticos e Melhorias**:
 Contrast Errors: Ajustar o contraste de cores para garantir legibilidade adequada.
 Ação: Modificar as cores de fundo e texto para atingir um contraste mínimo de 4.5:1.
 Alerts: Resolver alertas relacionados a elementos interativos e navegação.
@@ -424,24 +412,16 @@ Ação: Garantir que todos os elementos interativos sejam acessíveis via teclad
 Features: Verificar e otimizar os recursos identificados pelo WAVE.
 Ação: Certificar-se de que todos os recursos, como cabeçalhos e links, estejam corretamente implementados.
 Structural Elements: Melhorar a estrutura da página para facilitar a navegação.
-Ação: Utilizar elementos estruturais como cabeçalhos (<h1>, <h2>, etc.) de forma adequada.
+Ação: Utilizar elementos estruturais como cabeçalhos de forma adequada.
 ARIA: Adicionar ou corrigir rótulos ARIA para melhorar a acessibilidade.
 Ação: Implementar rótulos ARIA onde necessário para descrever a função dos elementos interativos.
-**Resultado Esperado:**
-
+**Resultado Esperado**:
 A página de cadastro deve ser totalmente acessível, com todos os erros e alertas resolvidos.
 A pontuação de acessibilidade deve ser alta, indicando conformidade com as diretrizes de acessibilidade.
-
-**Ferramentas Utilizadas:**
-
-**WAVE:**
-
-Ferramenta de avaliação de acessibilidade que destaca áreas problemáticas e fornece sugestões para melhorias.
-
-Útil para identificar problemas de contraste, rótulos de formulário, e navegação por teclado.
+Ferramentas Utilizadas:
+WAVE: Ferramenta de avaliação de acessibilidade que destaca áreas problemáticas e fornece sugestões para melhorias. Útil para identificar problemas de contraste, rótulos de formulário, e navegação por teclado
 
 **Cenário de Teste de Responsividade Mobile**
-
 **ID: 011**
 
 **Objetivo:** Verificar se a página de cadastro de usuário no site da Lacrei Saúde é responsiva e se adapta corretamente a diferentes tamanhos de tela em dispositivos móveis, especificamente no iPhone XR e no Samsung Galaxy S20 Ultra.
