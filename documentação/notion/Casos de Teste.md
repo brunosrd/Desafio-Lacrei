@@ -345,12 +345,16 @@ Speed Index: 14.5 s
 **Diagnósticos e Melhorias:**
 Minimize main-thread work: 12.3 s
 Ação: Reduzir o trabalho na thread principal, otimizando scripts e removendo tarefas desnecessárias.
+
 Largest Contentful Paint element: 9,280 ms
 Ação: Melhorar o tempo de carregamento do maior elemento visível, otimizando imagens e recursos.
+
 Reduce JavaScript execution time: 7.5 s
 Ação: Minimizar o tempo de execução do JavaScript, removendo scripts não utilizados e otimizando os existentes.
+
 Eliminate render-blocking resources: Potencial de economia de 810 ms
 Ação: Remover ou adiar recursos que bloqueiam a renderização, como CSS e JavaScript.
+
 Reduce initial server response time: Documento raiz levou 920 ms
 Ação: Melhorar o tempo de resposta inicial do servidor, otimizando a infraestrutura e o código do servidor.
 Reduce the impact of third-party code: Código de terceiros bloqueou a thread principal por 450 ms
