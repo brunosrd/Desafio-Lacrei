@@ -226,9 +226,9 @@
 
 ---
 
-## Cenário de Teste de Desempenho
+## ID:009 Cenário de Teste de Desempenho
 
-**ID:** 009  
+  
 **Objetivo:** Verificar e otimizar o desempenho da página de cadastro de usuário no site da Lacrei Saúde, utilizando os resultados do teste de performance do Lighthouse.
 
 ### Pré-condições:
@@ -303,9 +303,8 @@
 
 ---
 
-## Cenário de Teste de Acessibilidade
-
-**ID:** 010  
+## ID:010  Cenário de Teste de Acessibilidade
+ 
 **Objetivo:** Verificar e corrigir problemas de acessibilidade na página de cadastro de usuário no site da Lacrei Saúde.
 
 ### Pré-condições:
@@ -351,9 +350,8 @@
 
 ---
 
-## Cenário de Teste de Responsividade Mobile
+## ID:011  Cenário de Teste de Responsividade Mobile
 
-**ID:** 011  
 **Objetivo:** Verificar se a página de cadastro de usuário no site da Lacrei Saúde é responsiva e se adapta corretamente a diferentes tamanhos de tela em dispositivos móveis, especificamente no iPhone XR e no Samsung Galaxy S20 Ultra.
 
 ### Pré-condições:
