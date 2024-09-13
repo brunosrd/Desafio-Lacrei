@@ -114,13 +114,20 @@ Casos de teste
 1. **Instale o Node.js**: Certifique-se de ter o Node.js instalado em sua máquina. Você pode baixá-lo aqui.
 2. **Crie uma nova pasta para o projeto**: Navegue até o local onde deseja criar seu projeto e crie uma nova pasta.
 3. **Inicialize o projeto com npm**: 
-   ```bash
-   npm init -y
+
+    ```bash
+    npm init -y
 
 
 4. **Instale o Cypress**:
-    1. npm install cypress --save-dev
 
-5.  **Execute os testes**:
-    1. Modo interativo: npx cypress open 
-    2. Modo headless: npx cypress run
+    ```bash
+    npm install cypress --save-dev
+
+5. **Execute os testes**:
+
+    ```bash
+    Modo interativo: npx cypress open 
+
+    ```bash
+    Modo headless: npx cypress run
