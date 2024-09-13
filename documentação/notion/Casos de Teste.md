@@ -1,6 +1,6 @@
 # Casos de Teste
 
-## ID: CT-001: Cadastro da Pessoa Usuária - Sucessohttps://www.bing.com/?FORM=Z9FD1
+## ID: CT-001: Cadastro da Pessoa Usuária - Sucesso
 **Objetivo:** Verificar se o cadastro da pessoa usuária é realizado com sucesso.
 
 **Pré-condições:**
