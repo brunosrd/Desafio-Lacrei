@@ -11,11 +11,11 @@ const cadastroPage = new CadastroPage()
 describe('Lacrei Saúde', () => {
 
   it('Cadastro', () => {
-    cadastroPage.acessoCadastroPage() //visita url cadastro
-    cadastroPage.cadastroUsuario() //inromações cadastro usuario
+    cadastroPage.acessoCadastroPage() 
+    cadastroPage.cadastroUsuario() 
   })
 
-  it('Usuario - Sucesso', () => {
+  it('Fluxo pessoa usuária - Sucesso', () => {
     loginPage.acessoLoginPage() 
     loginPage.loginComSucesso() 
     cadastroPage.irPosCadastroUsuario() 
@@ -24,7 +24,7 @@ describe('Lacrei Saúde', () => {
     cadastroPage.cadastroConcluido() 
     buscarPage.irParaBuscarProfissional() 
     buscarPage.buscarProfissional() 
-    // buscarPage.contatarProfissional() 
+    buscarPage.contatarProfissional() 
     perfilPage.editarPefil()
     loginPage.buttonSairConta()
     loginPage.buttonSairConta()
