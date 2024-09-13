@@ -128,6 +128,4 @@ Casos de teste
 
     ```bash
     Modo interativo: npx cypress open 
-
-    ```bash
     Modo headless: npx cypress run
