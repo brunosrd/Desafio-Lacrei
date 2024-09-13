@@ -1,121 +1,72 @@
 # Casos de teste
 
 **ID: CT-001: Cadastro da Pessoa Usuária - Sucesso**
-
 **Objetivo:** **Verificar se o cadastro da pessoa usuária é realizado com sucesso.**
-
 **Pré-condições:**
-
 Acesso à versão mobile do site ou aplicativo da Lacrei Saúde.
-
 **Passos para execução:**
-
 1.Acessar a página de cadastro.
-
 Verificar se “Crie sua conta na Lacrei Saúde” é exibido.
-
 2.Preencher os campos obrigatórios com os dados:
-
 Nome: Bruno 
-
 Sobrenome: Ribeiro
-
 E-mail: bruno
-
 Confirme seu e-mail: brunosr099@outlook.com
-
 Senha: Teste@123
-
 Confirme sua senha: Teste@123
-
-3.Marcar caixa de termos de uso e Política de privacidade
-
-4..Marcar a caixa de seleção confirmando que tem 18 anos ou mais.
-
-5.Clicar no botão “Cadastrar”.
-
+3. Marcar caixa de termos de uso e Política de privacidade
+4. Marcar a caixa de seleção confirmando que tem 18 anos ou mais.
+5. Clicar no botão “Cadastrar”.
 Verificar se a mensagem “Estamos quase lá…” é exibida, informando que um link de verificação foi enviado para o e-mail cadastrado.
-
-6.Clicar na opção para “Voltar ao login”.
-
-7.Verificação do E-mail:
-
+6. Clicar na opção para “Voltar ao login”.
+7. Verificação do E-mail:
 Acessar o e-mail cadastrado.
-
 Verificar se o e-mail de verificação foi recebido.
-
 Clicar no link de Confirmar e-mail”.
-
 **Resultado Esperado:** O usuário deve ser redirecionado para a página de login com a mensagem “E-mail confirmado com sucesso. Por favor, faça login.”
 
 **ID: CT-002: Login com Sucesso**
-
 **Objetivo:** Verificar se o login da pessoa usuária é realizado com sucesso.
-
 **Pré-condições:**
-
 Acesso à versão mobile do site ou aplicativo da Lacrei Saúde.
-
 Conta de usuário previamente cadastrada e verificada.
-
 **Passos para execução:**
-
-1.Acessar a página de login.
-
-2.Verificar se “Entre ou crie sua conta Lacrei Saúde” é exibido.
-
-3.Preencher os campos obrigatórios com os dados:
-
+1. Acessar a página de login.
+2. Verificar se “Entre ou crie sua conta Lacrei Saúde” é exibido.
+3. Preencher os campos obrigatórios com os dados:
 E-mail: brunosr099@outlook.com
-
 Senha: Teste@123
-
-3.Clicar no botão “Entrar”.
-
+3. Clicar no botão “Entrar”.
 **Resultado Esperado:** O usuário deve ser redirecionado para a página inicial com a url ‘buscar-profissional/’
 
 **ID: CT-003: Pós-Cadastro da Pessoa Usuária - Sucesso**
-
 **Objetivo:** Verificar se o pós-cadastro da pessoa usuária é realizado com sucesso.
-
 **Pré-condições:**
-
 Acesso à versão mobile do site ou aplicativo da Lacrei Saúde.
-
 Conta de usuário previamente cadastrada e verificada.
-
 **Passos para execução:**
-
-1.Acessar a página de ‘pos-cadastro/preferencias/’
-
+1. Acessar a página de ‘pos-cadastro/preferencias/’
 Verificar se a mensagem “Boas-vindas à Lacrei Saúde, continue o seu cadastro” é exibida.
-
-2.Clicar no botão “Continuar cadastro”.
-
-3.Responder 5 perguntas:
+2. Clicar no botão “Continuar cadastro”.
+3. Responder 5 perguntas:
 
 Primeira pergunta, Verificar se é exibido “Com qual pronome você se identifica?” e  selecione uma das opções disponíveis:
-
 - **Ele/Dele**
 - Ela/Dela
 - Elu/Delu
 - Outro
-
 Clicar no botão “Próximo”.
 
-Segunda Pergunta, Verificar se é exibido “Com qual etnia você se identifica?**” e** selecione uma das opções disponíveis:
-
+Segunda Pergunta, Verificar se é exibido “Com qual etnia você se identifica? e selecione uma das opções disponíveis:
 - Amarela
 - **Branca**
 - Indígena
 - Parda
 - Preta
 - Outra
-
 Clicar no botão “Próximo”.
 
 Terceira Pergunta, Verificar se é exibido “Qual é sua identidade de gênero?” e selecione uma das opções disponíveis:
-
 - Agênera
 - Fluida
 - **Homem Cis**
@@ -126,11 +77,9 @@ Terceira Pergunta, Verificar se é exibido “Qual é sua identidade de gênero?
 - Não-Binária
 - Travesti
 - Outra
-
 Clicar no botão “Próximo”.
 
 Quarta Pergunta, Verificar se é exibido “Qual é a sua sexualidade?” e selecione uma das opções disponíveis:
-
 - Assexual
 - Bissexual
 - Demissexual
@@ -139,11 +88,9 @@ Quarta Pergunta, Verificar se é exibido “Qual é a sua sexualidade?” e sele
 - Pansexual
 - Lésbica
 - Outra
-
 Clicar no botão “Próximo”.
 
 Quinta Pergunta, Verificar se é exibido “Você possui alguma deficiência?” e selecione uma ou mais opções disponíveis:
-
 - **Não possuo deficiência**
 - Auditiva
 - Cognitiva
@@ -151,175 +98,98 @@ Quinta Pergunta, Verificar se é exibido “Você possui alguma deficiência?”
 - Múltipla
 - Visual
 - Outra
-
 Clicar no botão “Concluir”
 
 4.Verificar se a mensagem “Seu cadastro foi concluído!” é exibida
-
 **Resultado Esperado:** O usuário deve ver a mensagem “Seu cadastro foi concluído!” e as opções para “Buscar profissional” e “Editar”.
 
 **ID: CT-004: Buscar Profissionais - Sucesso**
-
 **Objetivo:** Verificar se a busca por profissionais é realizada com sucesso.
-
 **Pré-condições:**
-
 Acesso à versão mobile do site ou aplicativo da Lacrei Saúde.
-
 Conta de usuário previamente cadastrada, verificada e pós-cadastro concluído.
-
 **Passos para execução:**
-
-1.Acessar a página inicial buscar-profissional/
-
-2.Verificar se a mensagem “Boas-vindas à Lacrei Saúde! Encontre profissionais da saúde buscando por profissão, especialidade, localidade e também por sexualidade ou identidade de gênero.” é exibida.
-
-3.Preencher o campo de busca com a profissão “psicólogo”.
-
-4.Clicar no botão “Pesquisar”.
-
+1. Acessar a página inicial buscar-profissional/
+2. Verificar se a mensagem “Boas-vindas à Lacrei Saúde! Encontre profissionais da saúde buscando por profissão, especialidade, localidade e também por sexualidade ou identidade de gênero.” é exibida.
+3. Preencher o campo de busca com a profissão “psicólogo”.
+4. Clicar no botão “Pesquisar”.
 **Resultado Esperado:** O usuário deve ver a mensagem “Encontramos 1 resultado(s) para ‘psicólogo’” e o nome “John Doe de Queirós da Silva”. 
 
 **ID: CT-005: Contatar Profissional - Sucesso**
-
 **Objetivo:** Verificar se o contato com o profissional é realizado com sucesso.
-
 **Pré-condições:**
-
 Acesso à versão mobile do site ou aplicativo da Lacrei Saúde.
-
 Conta de usuário previamente cadastrada, verificada e pós-cadastro concluído.
-
 Busca por profissional realizada e profissional selecionado.
-
 **Passos para execução:**
-
-1.Buscar por profissional
-
-2.Verificar se as informações do profissional são exibidas corretamente.
-
-3.Clicar na aba “Atendimentos”.
-
-4.Verificar se a opção de  “Teleconsulta” é exibida.
-
-5.Clicar no botão “Exibir contato” da opção de atendimento “Teleconsulta”.
-
-6.Verificar se “Contatar Profissional” é exibido.
-
-7.Preencher o campo “Qual é seu número de celular?” 
-
+1. Buscar por profissional
+2. Verificar se as informações do profissional são exibidas corretamente.
+3. Clicar na aba “Atendimentos”.
+4. Verificar se a opção de  “Teleconsulta” é exibida.
+5. Clicar no botão “Exibir contato” da opção de atendimento “Teleconsulta”.
+6. Verificar se “Contatar Profissional” é exibido.
+7. Preencher o campo “Qual é seu número de celular?” 
 Número: 559999373610
-
-8.Digitar o código que foi enviado para o  SMS
-
+8. Digitar o código que foi enviado para o  SMS
 Código: 872517
-
-9.Clicar no botão “Enviar código”
-
+9. Clicar no botão “Enviar código”
 **Resultado Esperado:** O usuário deve ver a mensagem “Marque sua consulta”.
 
 **ID: CT-006: Editar Perfil - Sucesso**
-
 **Objetivo:** Verificar se a edição do perfil da pessoa usuária é realizada com sucesso.
-
 **Pré-condições:**
-
 Acesso à versão mobile do site ou aplicativo da Lacrei Saúde.
-
 Conta de usuário previamente cadastrada, verificada, pós-cadastro concluído e login.
-
 **Passos para execução:**
-
-1.Clicar no ícone de perfil
-
-2Verificar se a informação ”Bruno Ribeiro” é exibida corretamente.
-
-3.Clicar no botão “Editar dados”.
-
-4..Selecionar o campo “Data de nascimento”.
-
-5.Preencher o campo com os dados:
-
+1. Clicar no ícone de perfil
+2. Verificar se a informação ”Bruno Ribeiro” é exibida corretamente.
+3. Clicar no botão “Editar dados”.
+4. Selecionar o campo “Data de nascimento”.
+5. Preencher o campo com os dados:
 Data: 19/01/1999
-
-6.Clicar botão “Salvar”.
-
+6. Clicar botão “Salvar”.
 **Resultado Esperado:** O usuário deve ver a mensagem “Perfil atualizado com sucesso”.****
 
 **ID: CT-007: Recuperar Senha - Sucesso**
-
 **Objetivo:** Verificar se a funcionalidade de recuperação de senha é realizada com sucesso.
-
 **Pré-condições:**
-
 Acesso à versão mobile do site ou aplicativo da Lacrei Saúde.
-
 Conta de usuário previamente cadastrada e verificada.
-
 **Passos para execução:**
-
-1.Acessar a página de login.
-
-2.Clicar no link “Esqueci minha senha”.
-
-3.Verificar se a página “Redefinir senha” é exibida.
-
-4.Preencher o campo de e-mail com o endereço de e-mail cadastrado.
-
+1. Acessar a página de login.
+2. Clicar no link “Esqueci minha senha”.
+3. Verificar se a página “Redefinir senha” é exibida.
+4. Preencher o campo de e-mail com o endereço de e-mail cadastrado.
 E-mail: brunosr099@outlook.com
-
-5.Clicar no botão “Enviar link”.
-
-6.Verificar se a frase “Verifique seu e-mail para redefinir a senha” é exibida
-
-7.Acessar o e-mail cadastrado.
-
-8.Verificar se o e-mail de redefinição de senha foi recebido.
-
-9.Clicar no link de redefinição de senha no e-mail recebido.
-
-10.Verificar se as opções de “Nova senha” e “Confirmar nova senha” é exibido.
-
-11.Preencher os campos:
-
+5. Clicar no botão “Enviar link”.
+6. Verificar se a frase “Verifique seu e-mail para redefinir a senha” é exibida
+7. Acessar o e-mail cadastrado.
+8. Verificar se o e-mail de redefinição de senha foi recebido.
+9. Clicar no link de redefinição de senha no e-mail recebido.
+10. Verificar se as opções de “Nova senha” e “Confirmar nova senha” é exibido.
+11. Preencher os campos:
 Nova senha: Newteste@123
-
 Confirmar nova senha: Newteste@123
-
-12.Clicar no botão “Redefinir senha”.
-
+12. Clicar no botão “Redefinir senha”.
 **Resultado Esperado:** O usuário deve ver a mensagem “Senha redefinida com sucesso” e ser redirecionado para a página de login.*******
-
-13.Clicar no botão “Voltar para o login”.
+13. Clicar no botão “Voltar para o login”.
 
 **ID: CT-008: Login com nova senha - Sucesso**
-
 **Objetivo:** Verificar se a funcionalidade de reset de senha é realizada com sucesso.
-
 **Pré-condições:**
-
 Acesso à versão mobile do site ou aplicativo da Lacrei Saúde.
-
 Conta de usuário previamente cadastrada e verificada
-
 **Passos para execução:**
-
 1. Acessar a página de login.
-
-2.Preencher os campos “E-mail” e “Senha”:
-
+2. Preencher os campos “E-mail” e “Senha”:
 E-mail: brunosr099@outlook.com
-
 Senha: Newteste@123
-
-3.Clicar botão “Entrar”
-
+3. Clicar botão “Entrar”
 **Resultado Esperado:** O usuário deve ser redirecionado para a página inicial com a mensagem “Boas-vindas à Lacrei Saúde”.
 
 **Cenário de Teste de Desempenho**
 **ID: 009**
 **Objetivo**: Verificar e otimizar o desempenho da página de cadastro de usuário no site da Lacrei Saúde, utilizando os resultados do teste de performance do Lighthouse.
-
 **Pré-condições**:
 Acesso à versão mobile do site da Lacrei Saúde.
 Ferramenta Lighthouse instalada no Google Chrome.
@@ -386,7 +256,6 @@ WebPageTest: Para testes de desempenho adicionais e comparações.
 **Cenário de Teste de Acessibilidade**
 **ID: 010**
 **Objetivo**: Verificar e corrigir problemas de acessibilidade na página de cadastro de usuário no site da Lacrei Saúde.
-
 **Pré-condições**:
 Acesso à versão mobile do site da Lacrei Saúde.
 Extensão WAVE instalada no navegador.
@@ -423,61 +292,32 @@ WAVE: Ferramenta de avaliação de acessibilidade que destaca áreas problemáti
 
 **Cenário de Teste de Responsividade Mobile**
 **ID: 011**
-
 **Objetivo:** Verificar se a página de cadastro de usuário no site da Lacrei Saúde é responsiva e se adapta corretamente a diferentes tamanhos de tela em dispositivos móveis, especificamente no iPhone XR e no Samsung Galaxy S20 Ultra.
-
 **Pré-condições:**
-
 Acesso à versão mobile do site da Lacrei Saúde.
-
 Ferramenta de teste de responsividade, Inspetor 
-
 **Dispositivos Considerados:**
-
 **1.Iphone XR:**
-
 Resolução: 414 x 896 pixels
-
 Tamanho da tela: 6.1 polegadas
-
 **2.Samsung Galaxy S20 Ultra:**
-
 Resolução: 420 x 915 pixels
-
 Tamanho da tela: 6.9 polegadas
-
 **Passos para execução:**
-
-**1.Configuração do Ambiente de Teste:**
-
+1. Configuração do Ambiente de Teste:**
 Abra o Google Chrome e navegue até a página de cadastro de usuário.
-
 Abra o DevTools, Resposive
-
-**2.Teste de Responsividade no iPhone XR:**
-
+2. Teste de Responsividade no iPhone XR:**
 Verifique se todos os elementos da página são exibidos corretamente na tela.
-
 Certifique-se de que os campos de entrada são facilmente acessíveis e utilizáveis.
-
 Verifique se os botões e links são clicáveis e funcionam corretamente.
-
 Teste a rolagem da página para garantir que não há elementos cortados ou fora de lugar.
-
 **Resultado Esperado:** A página deve ser totalmente funcional e visualmente agradável no iPhone XR, sem necessidade de zoom ou rolagem horizontal.
-
-**3.Configuração do Ambiente de Teste para Samsung Galaxy S20 Ultra:**
-
+3. Configuração do Ambiente de Teste para Samsung Galaxy S20 Ultra:**
 No DevTools, selecione o dispositivo “Samsung Galaxy S20 Ultra” na lista de dispositivos.
-
-**4.Teste de Responsividade no Samsung Galaxy S20 Ultra:**
-
+4. Teste de Responsividade no Samsung Galaxy S20 Ultra:**
 Verifique se todos os elementos da página são exibidos corretamente na tela.
-
 Certifique-se de que os campos de entrada são facilmente acessíveis e utilizáveis.
-
 Verifique se os botões e links são clicáveis e funcionam corretamente.
-
 Teste a rolagem da página para garantir que não há elementos cortados ou fora de lugar.
-
 **Resultado Esperado:** A página deve ser totalmente funcional e visualmente agradável no Samsung Galaxy S20 Ultra, sem necessidade de zoom ou rolagem horizontal.
