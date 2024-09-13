@@ -5,6 +5,27 @@
 **Objetivo**: 
 Verificar que as funcionalidades críticas do sistema sejam testadas de forma eficaz, assegurando que o sistema atenda aos requisitos funcionais, de desempenho, acessibilidade e responsividade. Visando executar os testes com base em critérios de aceite para Lacrei Saúde, que conectam pessoas LGBTQIAPN+ com profissionais de saúde qualificados, proporcionando experiências de cuidado seguras e inclusivas.
 
+## **Instalação e Execução dos Testes**
+
+1. **Instale o Node.js**: Certifique-se de ter o Node.js instalado em sua máquina. Você pode baixá-lo aqui.
+2. **Crie uma nova pasta para o projeto**: Navegue até o local onde deseja criar seu projeto e crie uma nova pasta.
+3. **Inicialize o projeto com npm**: 
+
+    ```bash
+    npm init -y
+
+
+4. **Instale o Cypress**:
+
+    ```bash
+    npm install cypress --save-dev
+
+5. **Execute os testes**:
+
+    ```bash
+    Modo interativo: npx cypress open 
+    Modo headless: npx cypress run
+    
 ## **Escopo**
 
 - **ID: CT-001**: Cadastro da Pessoa Usuária - Sucesso
@@ -106,26 +127,3 @@ Verificar que as funcionalidades críticas do sistema sejam testadas de forma ef
   - **Mitigação**: Executar testes de carga e estresse regularmente e otimizar o código conforme necessário.
 - **Risco**: Não conformidade com diretrizes de acessibilidade.
   - **Mitigação**: Utilizar ferramentas de verificação de acessibilidade e realizar revisões manuais.
-
-Casos de teste
-
-## **Instalação e Execução dos Testes**
-
-1. **Instale o Node.js**: Certifique-se de ter o Node.js instalado em sua máquina. Você pode baixá-lo aqui.
-2. **Crie uma nova pasta para o projeto**: Navegue até o local onde deseja criar seu projeto e crie uma nova pasta.
-3. **Inicialize o projeto com npm**: 
-
-    ```bash
-    npm init -y
-
-
-4. **Instale o Cypress**:
-
-    ```bash
-    npm install cypress --save-dev
-
-5. **Execute os testes**:
-
-    ```bash
-    Modo interativo: npx cypress open 
-    Modo headless: npx cypress run
