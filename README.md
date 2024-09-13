@@ -14,7 +14,6 @@ Verificar que as funcionalidades críticas do sistema sejam testadas de forma ef
     ```bash
     npm init -y
 
-
 4. **Instale o Cypress**:
 
     ```bash
@@ -25,7 +24,7 @@ Verificar que as funcionalidades críticas do sistema sejam testadas de forma ef
     ```bash
     Modo interativo: npx cypress open 
     Modo headless: npx cypress run
-    
+
 ## **Escopo**
 
 - **ID: CT-001**: Cadastro da Pessoa Usuária - Sucesso
